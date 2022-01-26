@@ -40,7 +40,7 @@ core\static\json\candidate.json로 가서
     "fields": {
       "first_name": "조지프", <- 성
       "last_name": "케네디", <- 이름
-      "election": 3,
+      "election": 30, <- 참가하는 선거 아이디
       "party": "민주당", <- 당적
       "state": "메사추세츠", <- 기반 주
       "priority": 1, <- 1번 후보인가 2번 후보인가 순서
