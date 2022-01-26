@@ -1,7 +1,7 @@
 [
   {
     "model": "campaign_trail.election",
-    "pk": 24,
+    "pk": 30,
     "fields": {
       "year": 1964,
       "summary": "<p>TP팀이 제공하는 환장의 미국 대선</p>",

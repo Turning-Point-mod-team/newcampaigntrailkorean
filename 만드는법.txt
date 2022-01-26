@@ -1,0 +1,12 @@
+1. core/campaign-trail/election/
+위 경로의 아무거나 하나 복사 후 폴더명에 원하는 "아이디" 입력
+
+2. core\static\json\election.json 을 열어서 맨 위에 아이디와 동일하게 입력
+
+
+  {
+    "id": 30, <- 아이디 입력
+    "year": 1964, <- 원하는 년도
+    "is_premium": 0, 
+    "display_year": "TP-1964" <- 실제 보여지는 년도(TP라는 것을 보여주기 위해 앞에 TP입력)
+  }, 
