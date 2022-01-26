@@ -1,12 +1,36 @@
 1. core/campaign-trail/election/
 위 경로의 아무거나 하나 복사 후 폴더명에 원하는 "아이디" 입력
 
-2. core\static\json\election.json 을 열어서 맨 위에 아이디와 동일하게 입력
-
-
+2. core\static\json\election_list.json 을 열어서 맨 위에 보여지는 년도와 동일하게 입력
   {
-    "id": 30, <- 아이디 입력
+    "id": 30, <- 아이디 입력, 단 겹치는게 있으면 안되고 30보다 커야 함
     "year": 1964, <- 원하는 년도
     "is_premium": 0, 
     "display_year": "TP-1964" <- 실제 보여지는 년도(TP라는 것을 보여주기 위해 앞에 TP입력)
   }, 
+
+3. 아까 core/campaign-trail/election/ 여기 열어서 index.html 열기
+
+4. ctrl+f 해서 campaignTrail_temp.election_id 찾기
+
+5. = 30 써있는게 아이디니까 아이디 변경하고 저장하기
+
+6. core\static\json\election.json 열어서 맨위에
+  {
+    "model": "campaign_trail.election",
+    "pk": 30, <- 아까 넣었던 아이디
+    "fields": {
+      "year": 1964, <- 년도
+      "summary": "<p>TP팀이 제공하는 환장의 미국 대선</p>", <- 설명
+      "image_url": "../static/images/1964_tp_election_photo.png", <- 사진 위치
+      "winning_electoral_vote_number": 270, <- 선거인단 수
+      "advisor_url": "../static/images/dillon-stepien.jpg", <- 이 아래부터 안해도 되는것들
+      "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+      "has_visits": 1,
+      "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+    }
+  },
+이런식으로 추가하기
+
+7. 후보 추가하기
+core\static\json\candidate.json로 가서 
