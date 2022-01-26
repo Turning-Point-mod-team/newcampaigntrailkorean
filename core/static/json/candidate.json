@@ -1,7 +1,7 @@
 [
   {
     "model": "campaign_trail.candidate",
-    "pk": 180, 
+    "pk": 315, 
     "fields": {
       "first_name": "조지프",
       "last_name": "케네디",
@@ -23,7 +23,7 @@
   },
   {
     "model": "campaign_trail.candidate",
-    "pk": 181, 
+    "pk": 316, 
     "fields": {
       "first_name": "바보",
       "last_name": "베넷",
