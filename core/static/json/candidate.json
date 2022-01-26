@@ -4237,7 +4237,7 @@
       "color_hex": "#0000FF",
       "secondary_color_hex": "#90C0FF",
       "is_active": 1,
-      "image_url": "../static/images/barack-obama-2012.jpg",
+      "image_url": "../static/images/Portrait_USA_Joseph_Patrick_Kennedy_Jr.png",
       "electoral_victory_message": "<h3>승리!</p>",
       "electoral_loss_message": "<h3>패배!</p>",
       "no_electoral_majority_message": "<h3>망했어!</p>",
