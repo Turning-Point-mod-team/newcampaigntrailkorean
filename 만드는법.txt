@@ -32,7 +32,7 @@
   },
 이런식으로 추가하기
 
-7. 후보 추가하기
+7. 후보, 러닝메이트 추가하기
 core\static\json\candidate.json로 가서 
   {
     "model": "campaign_trail.candidate",
@@ -52,8 +52,10 @@ core\static\json\candidate.json로 가서
       "electoral_victory_message": "<h3>승리!</p>", <- 승리시 메세지
       "electoral_loss_message": "<h3>패배!</p>", <- 패배시 메세지
       "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for Mitt Romney.</p><p>Given the incredibly close nature of the election, you can probably set your sights on a political comeback in 2016, if that is what you desire.</p>",
-      "description_as_running_mate": null,
-      "candidate_score": 1.0
+      "description_as_running_mate": null, <-러닝메이트면 null 대신 "<p>러닝메이트용 설명</p>" 집어넣기
+      "candidate_score": 1.0 <- 러닝메이트면 0으로 변경
     }
   },
 이런식으로 또 추가하기
+
+8. core\static\json\running_mate.json로 이동해서 가능한 러닝메이트 전부 넣기
