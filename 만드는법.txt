@@ -47,7 +47,7 @@ core\static\json\candidate.json로 가서
       "description": "<p>설명</p>", <- 설명
       "color_hex": "#0000FF", <- 당 색상
       "secondary_color_hex": "#90C0FF", <- 이것도 당 색상
-      "is_active": 1, <- 활성화인가 아닌가
+      "is_active": 1, <- 활성화인가 아닌가, 후보는 1이고 러닝메이트는 0
       "image_url": "../static/images/barack-obama-2012.jpg", <- 후보 사진 위치
       "electoral_victory_message": "<h3>승리!</p>", <- 승리시 메세지
       "electoral_loss_message": "<h3>패배!</p>", <- 패배시 메세지
