@@ -3,7 +3,7 @@
     "model": "campaign_trail.election",
     "pk": 21,
     "fields": {
-      "year": 1965,
+      "year": 2020,
       "summary": "<p>Joe Biden and Donald Trump face off in a heated 2020 election campaign. Held in the wake of a COVID-19 pandemic and nationwide protests, turnout is expected to be through the roof. Can Joe Biden hold together a large enough coalition of anti-Trump voters to make Trump a one-term President, or will Trump pull of another huge upset after trailing in the polls?</p>",
       "image_url": "../static/images/2020-election-photo.jpg",
       "winning_electoral_vote_number": 270,
