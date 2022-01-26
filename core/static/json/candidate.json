@@ -4229,7 +4229,7 @@
     "fields": {
       "first_name": "조지프",
       "last_name": "케네디",
-      "election": 3,
+      "election": 30,
       "party": "민주당",
       "state": "메사추세츠",
       "priority": 1,
@@ -4251,7 +4251,7 @@
     "fields": {
       "first_name": "바보",
       "last_name": "베넷",
-      "election": 3,
+      "election": 30,
       "party": "공화당",
       "state": "어딘가",
       "priority": 2,
