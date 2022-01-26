@@ -1092,7 +1092,7 @@
     "pk": 208,
     "fields": {
       "candidate": 315,
-      "running_mate": 311
+      "running_mate": 317
     }
   },
   {
@@ -1100,7 +1100,7 @@
     "pk": 209,
     "fields": {
       "candidate": 316,
-      "running_mate": 311
+      "running_mate": 318
     }
   }
 ]

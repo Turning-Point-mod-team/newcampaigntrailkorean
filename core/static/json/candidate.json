@@ -4247,7 +4247,7 @@
   },
   {
     "model": "campaign_trail.candidate",
-    "pk": 319, 
+    "pk": 318, 
     "fields": {
       "first_name": "베넷",
       "last_name": "러닝메이트",
