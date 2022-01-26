@@ -1086,5 +1086,21 @@
       "candidate": 302,
       "running_mate": 311
     }
+  },
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 208,
+    "fields": {
+      "candidate": 315,
+      "running_mate": 311
+    }
+  },
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 209,
+    "fields": {
+      "candidate": 316,
+      "running_mate": 311
+    }
   }
 ]
