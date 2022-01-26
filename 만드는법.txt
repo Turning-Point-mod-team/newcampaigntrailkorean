@@ -59,3 +59,12 @@ core\static\json\candidate.json로 가서
 이런식으로 또 추가하기
 
 8. core\static\json\running_mate.json로 이동해서 가능한 러닝메이트 전부 넣기
+  {
+    "model": "campaign_trail.running_mate",
+    "pk": 208, <- 바로 전에 +1
+    "fields": {
+      "candidate": 315, <- 후보자
+      "running_mate": 317 <- 러닝메이트
+    }
+  },
+이걸 러닝메이트 수만큼 해야 함
